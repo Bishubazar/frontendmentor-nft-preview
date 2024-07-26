@@ -6,6 +6,7 @@ function App() {
             <article className="bg-dark-card card-shadow p-6 pb-8  flex flex-col rounded-2xl gap-6">
                 <a
                     href="/"
+                    aria-label="NFT Image"
                     className="w-full max-w-80 relative aspect-square overflow-hidden rounded-xl group"
                 >
                     <img
@@ -23,6 +24,7 @@ function App() {
                 </a>
                 <a
                     href="/"
+                    aria-label="NFT Name"
                     className="text-white hover:text-cyan text-2xl font-medium"
                 >
                     Equilibrium #3429
@@ -53,7 +55,11 @@ function App() {
                     />
                     <h1 className="text-blue-soft text-base font-light">
                         Creation of{" "}
-                        <a href="/" className="hover:text-cyan text-white">
+                        <a
+                            href="/"
+                            aria-label="Creator"
+                            className="hover:text-cyan text-white"
+                        >
                             Jules Wyvern
                         </a>
                     </h1>
