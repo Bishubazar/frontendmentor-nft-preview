@@ -6,7 +6,7 @@ function App() {
             <article className="bg-dark-card card-shadow p-6 pb-8  flex flex-col rounded-2xl gap-6">
                 <a
                     href="/"
-                    className="w-full max-w-80 relative aspect-square overflow-hidden rounded-xl group "
+                    className="w-full max-w-80 relative aspect-square overflow-hidden rounded-xl group"
                 >
                     <img
                         src="/images/image-equilibrium.jpg"
@@ -22,7 +22,7 @@ function App() {
                     </span>
                 </a>
                 <a
-                    href=""
+                    href="/"
                     className="text-white hover:text-cyan text-2xl font-medium"
                 >
                     Equilibrium #3429
