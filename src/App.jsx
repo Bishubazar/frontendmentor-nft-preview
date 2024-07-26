@@ -9,13 +9,13 @@ function App() {
                     className="w-full max-w-80 relative aspect-square overflow-hidden rounded-xl group "
                 >
                     <img
-                        src="/public/images/image-equilibrium.jpg"
+                        src="/images/image-equilibrium.jpg"
                         alt=""
                         className={twMerge("object-cover")}
                     />
                     <span className="absolute top-0 left-0 size-full grid place-items-center bg-cyan/0 group-hover:bg-cyan/50 smooth">
                         <img
-                            src="/public/images/icon-view.svg"
+                            src="/images/icon-view.svg"
                             className="opacity-0 group-hover:opacity-100 smooth"
                             alt=""
                         />
@@ -33,7 +33,7 @@ function App() {
 
                 <div className="flex justify-between items-center">
                     <div className="flex items-center gap-[6px]">
-                        <img src="/public/images/icon-ethereum.svg" alt="" />
+                        <img src="/images/icon-ethereum.svg" alt="" />
                         <span className="text-cyan font-normal text-base">
                             0.041 ETH
                         </span>
