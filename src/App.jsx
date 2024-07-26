@@ -39,7 +39,7 @@ function App() {
                         </span>
                     </div>
                     <div className="flex items-center gap-[6px]">
-                        <img src="/public/images/icon-clock.svg" alt="" />
+                        <img src="/images/icon-clock.svg" alt="" />
                         <span className="font-light text-base text-blue-soft">
                             3 days left
                         </span>
@@ -47,7 +47,7 @@ function App() {
                 </div>
                 <div className=" w-full border-t border-dark-line pt-4 flex gap-4 items-center">
                     <img
-                        src="/public/images/image-avatar.png"
+                        src="/images/image-avatar.png"
                         alt="avatar"
                         className="w-8 aspect-square border border-white rounded-full"
                     />
